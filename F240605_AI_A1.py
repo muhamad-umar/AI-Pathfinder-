@@ -419,14 +419,14 @@ def run_btn_click():
 # ──────────────────────────────────────────
 
 root = tk.Tk()
-root.title("GOOD PERFORMANCE TIME APP")
+root.title("AI Pathfinder")
 root.configure(bg=BG_MAIN)
 root.resizable(False, False)
 
 # Header
 header = tk.Frame(root, bg=BG_MAIN)
 header.pack(pady=(15, 5))
-tk.Label(header, text="GOOD PERFORMANCE TIME APP", 
+tk.Label(header, text="AI Pathfinder", 
          fg=ACCENT, bg=BG_MAIN, font=("Impact", 18, "italic")).pack()
 tk.Label(header, text="UNINFORMED SEARCH VISUALIZATION", 
          fg=TEXT_LOW, bg=BG_MAIN, font=("Segoe UI", 9)).pack()
